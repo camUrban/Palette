@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.cameronurban.palette.HomePage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            tools:context=".MainScreen"
+            android:background="@color/background"
+            android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="95dp"
+                    android:layout_marginTop="85dp"
+                    android:textColor="@color/paletteText"
+                    android:typeface="sans"
+                    android:textSize="72sp"
+                    android:text="@string/app_name"/>
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="200dp"
+                    android:layout_marginLeft="80dp"
+                    android:background="@mipmap/icon"
+                    />
+
+                <TextView
+                    android:id="@+id/viewPaletteText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="475dp"
+                    android:textColor="@color/paletteText"
+                    android:typeface="sans"
+                    android:textSize="32sp"
+                    android:text="view your palette" />
+
+
+                <TextView
+                    android:id="@+id/addColorText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="550dp"
+                    android:textColor="@color/paletteText"
+                    android:typeface="sans"
+                    android:textSize="32sp"
+                    android:text="add a new color" />
+
+
+        </RelativeLayout>
+
+</RelativeLayout>
